@@ -10,26 +10,24 @@ Accept: application/json
 
 ###
 
-POST {{baseUrl}}/api/v1/authentication/users
+POST {{baseUrl}}/api/v1/authentication-service/users
 Content-Type: application/json
 
 {"firstName": "Jan", "lastName": "Kowalski"}
 
 ###
 
-GET {{baseUrl}}/api/v1/authentication/users/2
+GET {{baseUrl}}/api/v1/authentication-service/users/2
 Accept: application/json
 
 ###
 
-###
-
-GET {{baseUrl}}/api/v1/trips/trips
+GET {{baseUrl}}/api/v1/trips-service/trips
 Accept: application/json
 
 ###
 
-GET {{baseUrl}}/api/v1/payments/payments
+GET {{baseUrl}}/api/v1/payments-service/payments
 Accept: application/json
 
 ###
