@@ -13,6 +13,7 @@
 
     <modules>
         <module>authentication</module>
+        <module>configuration</module>
     </modules>
 
 </project>
