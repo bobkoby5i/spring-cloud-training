@@ -1,1 +1,2 @@
-prefix: /api/v1
+zuul:
+  prefix: /api/v1

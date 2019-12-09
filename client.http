@@ -9,3 +9,15 @@ GET {{baseUrl}}/users/2
 Accept: application/json
 
 ###
+
+POST {{baseUrl}}/api/v1/authentication/users
+Content-Type: application/json
+
+{"firstName": "Jan", "lastName": "Kowalski"}
+
+###
+
+GET {{baseUrl}}/api/v1/authentication/users/2
+Accept: application/json
+
+###
