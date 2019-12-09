@@ -1,5 +1,6 @@
 server:
   port: 8089
 eureka:
-  registerWithEureka: false
-  fetchRegistry: false
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
