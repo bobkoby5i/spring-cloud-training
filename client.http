@@ -1,0 +1,11 @@
+POST {{baseUrl}}/users
+Content-Type: application/json
+
+{"firstName": "Jan", "lastName": "Kowalski"}
+
+###
+
+GET {{baseUrl}}/users/2
+Accept: application/json
+
+###
