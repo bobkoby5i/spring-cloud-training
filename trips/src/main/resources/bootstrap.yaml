@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: trips
+  cloud:
+    config:
+      uri: http://localhost:8888 # default value
