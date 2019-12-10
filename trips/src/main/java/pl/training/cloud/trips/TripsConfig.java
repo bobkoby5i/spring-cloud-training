@@ -5,6 +5,7 @@ import lombok.Setter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.web.client.RestTemplate;
 import pl.training.cloud.trips.drivers.Driver;
 import pl.training.cloud.trips.drivers.DriversRepository;
 import pl.training.cloud.trips.payments.Card;
@@ -48,6 +49,11 @@ public class TripsConfig {
                 .card(card)
                 .build();
         driversRepository.saveAndFlush(driver);
+    }
+
+    @Bean
+    public RestTemplate restTemplate() {
+        return new RestTemplate();
     }
 
 }

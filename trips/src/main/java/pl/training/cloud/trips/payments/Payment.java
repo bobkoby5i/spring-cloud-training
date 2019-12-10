@@ -20,5 +20,6 @@ public class Payment {
     @NonNull
     @Enumerated(EnumType.STRING)
     private PaymentStatus status;
+    private Long transactionId;
 
 }
