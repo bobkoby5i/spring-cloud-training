@@ -21,7 +21,7 @@ public class Driver {
     private Long id;
     private String firstName;
     private String lastName;
-    @OneToOne(cascade = CascadeType.PERSIST)
+    @OneToOne(cascade = CascadeType.ALL)
     private Card card;
 
 }
