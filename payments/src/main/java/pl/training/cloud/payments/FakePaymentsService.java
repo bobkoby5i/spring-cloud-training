@@ -13,7 +13,7 @@ public class FakePaymentsService {
     private Random random = new Random();
 
     public Payment pay(Long amount, CreditCard creditCard) {
-        Long paymentId = random.nextLong();
+        Long paymentId = Math.abs(random.nextLong());
         log.info("Charging card: " + creditCard.getNumber() + " (amount: " + amount + ")");
         Payment payment = new Payment();
         payment.setId(paymentId);

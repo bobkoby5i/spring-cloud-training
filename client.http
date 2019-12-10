@@ -1,7 +1,10 @@
 POST {{baseUrl}}/users
 Content-Type: application/json
 
-{"firstName": "Jan", "lastName": "Kowalski"}
+{
+  "firstName": "Jan",
+  "lastName": "Kowalski"
+}
 
 ###
 
@@ -13,7 +16,10 @@ Accept: application/json
 POST {{baseUrl}}/api/v1/authentication-service/users
 Content-Type: application/json
 
-{"firstName": "Jan", "lastName": "Kowalski"}
+{
+  "firstName": "Jan",
+  "lastName": "Kowalski"
+}
 
 ###
 
@@ -30,5 +36,19 @@ Accept: application/json
 
 GET {{baseUrl}}/api/v1/trips-service/trips/3
 Accept: application/json
+
+###
+
+POST {{baseUrl}}/api/v1/payments-service/payments
+Content-Type: application/json
+
+{
+  "amount": 1000,
+  "card": {
+    "number": "123456789",
+    "cvv": "543",
+    "expirationDate": "2019-12-10T10:51:18.539146"
+  }
+}
 
 ###
