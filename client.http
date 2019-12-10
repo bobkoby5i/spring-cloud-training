@@ -22,12 +22,13 @@ Accept: application/json
 
 ###
 
-GET {{baseUrl}}/api/v1/trips-service/trips
+POST {{baseUrl}}/api/v1/trips-service/drivers/2/trips
 Accept: application/json
+
 
 ###
 
-GET {{baseUrl}}/api/v1/payments-service/payments
+GET {{baseUrl}}/api/v1/trips-service/trips/3
 Accept: application/json
 
 ###
