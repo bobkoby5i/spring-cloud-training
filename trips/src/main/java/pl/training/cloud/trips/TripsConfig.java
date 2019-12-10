@@ -3,6 +3,7 @@ package pl.training.cloud.trips;
 import lombok.RequiredArgsConstructor;
 import lombok.Setter;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.client.RestTemplate;
@@ -51,6 +52,7 @@ public class TripsConfig {
         driversRepository.saveAndFlush(driver);
     }
 
+    @LoadBalanced
     @Bean
     public RestTemplate restTemplate() {
         return new RestTemplate();

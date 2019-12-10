@@ -28,13 +28,13 @@ Accept: application/json
 
 ###
 
-POST {{baseUrl}}/api/v1/trips-service/drivers/1/trips
+POST {{baseUrl}}/api/v1/trips-service/drivers/2/trips
 Accept: application/json
 
 
 ###
 
-PUT {{baseUrl}}/api/v1/trips-service/trips/2
+PUT {{baseUrl}}/api/v1/trips-service/trips/3
 Accept: application/json
 
 ###
