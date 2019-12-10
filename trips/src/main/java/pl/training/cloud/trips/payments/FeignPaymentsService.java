@@ -2,22 +2,22 @@ package pl.training.cloud.trips.payments;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.java.Log;
+import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.HttpClientErrorException;
-import org.springframework.web.client.RestTemplate;
 import pl.training.cloud.payments.api.PaymentResponseDto;
+import pl.training.cloud.payments.api.Payments;
 import pl.training.cloud.payments.api.PaymentsRequestDto;
 
 import java.util.Optional;
 
+@Primary
 @Log
 @Service
 @RequiredArgsConstructor
-public class BalancedRestTemplatePaymentsService implements PaymentsService {
+public class FeignPaymentsService implements PaymentsService {
 
-    private static final String PAYMENTS_URI = "http://payments-service/payments";
-
-    private final RestTemplate restTemplate;
+    private final Payments payments;
     private final PaymentMapper paymentMapper;
 
     @Override
@@ -25,7 +25,7 @@ public class BalancedRestTemplatePaymentsService implements PaymentsService {
         PaymentsRequestDto paymentsRequestDto = paymentMapper.toPaymentRequestDto(card);
         paymentsRequestDto.setAmount(amount);
         try {
-            PaymentResponseDto paymentResponseDto = restTemplate.postForObject(PAYMENTS_URI, paymentsRequestDto, PaymentResponseDto.class);
+            PaymentResponseDto paymentResponseDto = payments.addPaymentRequest(paymentsRequestDto).getBody();
             if (paymentResponseDto != null) {
                 return Optional.ofNullable(paymentResponseDto.getId());
             }
