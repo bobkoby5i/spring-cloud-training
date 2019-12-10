@@ -28,7 +28,7 @@ public class Trip {
     @NonNull
     @OneToOne
     private Driver driver;
-    @OneToOne
+    @OneToOne(cascade = CascadeType.ALL)
     private Payment payment;
 
 }
