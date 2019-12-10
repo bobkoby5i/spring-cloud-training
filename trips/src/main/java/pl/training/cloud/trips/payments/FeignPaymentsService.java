@@ -2,6 +2,8 @@ package pl.training.cloud.trips.payments;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.java.Log;
+import org.springframework.cloud.stream.annotation.StreamListener;
+import org.springframework.cloud.stream.messaging.Sink;
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.HttpClientErrorException;
@@ -18,6 +20,7 @@ import java.util.Optional;
 public class FeignPaymentsService implements PaymentsService {
 
     private final Payments payments;
+    private final PaymentsRepository paymentsRepository;
     private final PaymentMapper paymentMapper;
 
     @Override
@@ -33,6 +36,17 @@ public class FeignPaymentsService implements PaymentsService {
             log.warning("Payment failed");
         }
         return Optional.empty();
+    }
+
+    @StreamListener(Sink.INPUT)
+    public void updatePaymentStatus(PaymentResponseDto paymentResponseDto) {
+        Payment payment = paymentMapper.toPayment(paymentResponseDto);
+        log.info("Payment status changed: " + payment);
+        paymentsRepository.findByTransactionId(payment.getTransactionId())
+                .ifPresent(existingPayment -> {
+                    existingPayment.setStatus(payment.getStatus());
+                    paymentsRepository.saveAndFlush(existingPayment);
+                });
     }
 
 }

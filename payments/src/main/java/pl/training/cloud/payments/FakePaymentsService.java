@@ -12,6 +12,7 @@ public class FakePaymentsService {
 
     private Random random = new Random();
 
+    @NotifyPaymentStatusChange
     public Payment pay(Long amount, CreditCard creditCard) {
         Long paymentId = Math.abs(random.nextLong());
         log.info("Charging card: " + creditCard.getNumber() + " (amount: " + amount + ")");

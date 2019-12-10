@@ -8,3 +8,10 @@ spring:
   jpa:
     hibernate:
       ddl-auto: create-drop
+  cloud:
+    stream:
+      bindings:
+        input:
+          destination: payments-topic
+          content-type: application/json
+          groups: trips
