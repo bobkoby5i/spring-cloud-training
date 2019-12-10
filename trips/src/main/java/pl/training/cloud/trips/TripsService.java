@@ -39,6 +39,7 @@ public class TripsService {
             trip.setEndTime(LocalDateTime.now());
             Card card = trip.getDriver().getCard();
             paymentsService.pay(BASE_CHARGE, card).ifPresent(payment::setTransactionId);
+            payment.setStatus(PaymentStatus.STARTED);
             tripsRepository.saveAndFlush(trip);
         }
         return trip;
