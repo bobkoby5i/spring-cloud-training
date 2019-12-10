@@ -6,7 +6,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>pl.training.cloud</groupId>
-    <artifactId>trips-api</artifactId>
+    <artifactId>payments-api</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
