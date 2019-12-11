@@ -6,8 +6,16 @@ spring:
       probability: 1
   zipkin:
     base-url: http://localhost:8090
+  boot:
+    admin:
+      client:
+        url: http://localhost:8091
 eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8089/eureka/
-
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*' ## only for training purposes
