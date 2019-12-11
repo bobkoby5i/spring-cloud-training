@@ -18,11 +18,10 @@ import java.util.Optional;
 @RequiredArgsConstructor
 public class TripsService {
 
-    private final static long BASE_CHARGE = 1_000L;
-
     private final TripsRepository tripsRepository;
     private final PaymentsService paymentsService;
     private final DriversService driversService;
+    private final TripChargeConfig tripChargeConfig;
 
     public Trip startTrip(Long driverId) {
         Driver driver = driversService.getDriverById(driverId);
@@ -38,7 +37,7 @@ public class TripsService {
         if (payment.getStatus() == PaymentStatus.NOT_STARTED) {
             trip.setEndTime(LocalDateTime.now());
             Card card = trip.getDriver().getCard();
-            paymentsService.pay(BASE_CHARGE, card).ifPresent(payment::setTransactionId);
+            paymentsService.pay(tripChargeConfig.getBaseCharge(), card).ifPresent(payment::setTransactionId);
             payment.setStatus(PaymentStatus.STARTED);
             tripsRepository.saveAndFlush(trip);
         }
