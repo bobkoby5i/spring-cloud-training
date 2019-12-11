@@ -20,7 +20,7 @@
 	<properties>
 		<java.version>11</java.version>
 		<spring-cloud.version>Greenwich.SR4</spring-cloud.version>
-		<zipkin.version>2.12.9</zipkin.version>
+		<zipkin.version>2.12.8</zipkin.version>
 	</properties>
 
 	<build>
