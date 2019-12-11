@@ -2,7 +2,9 @@ package pl.training.cloud.zipkin;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import zipkin2.server.internal.EnableZipkinServer;
 
+@EnableZipkinServer
 @SpringBootApplication
 public class ZipkinApplication {
 
