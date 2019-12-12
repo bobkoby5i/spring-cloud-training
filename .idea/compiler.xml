@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="trips" />
+        <module name="configuration" />
+        <module name="payments" />
+        <module name="payments-api" />
+        <module name="authentication" />
+        <module name="discovery" />
+        <module name="admin" />
+        <module name="gateway" />
+        <module name="zipkin" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="admin" options="-parameters" />
+      <module name="authentication" options="-parameters" />
+      <module name="configuration" options="-parameters" />
+      <module name="discovery" options="-parameters" />
+      <module name="gateway" options="-parameters" />
+      <module name="payments" options="-parameters" />
+      <module name="trips" options="-parameters" />
+      <module name="zipkin" options="-parameters" />
+    </option>
+  </component>
+</project>

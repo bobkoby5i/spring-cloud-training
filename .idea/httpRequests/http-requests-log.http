@@ -1,0 +1,515 @@
+PUT http://localhost:8080/api/v1/trips-service/trips/3
+Accept: application/json
+
+<> 2019-12-11T035132.504.json
+
+###
+
+POST http://localhost:8080/api/v1/trips-service/drivers/2/trips
+Accept: application/json
+
+<> 2019-12-11T035123.201.json
+
+###
+
+POST http://localhost:8002/payments
+Content-Type: application/json
+
+{
+  "amount": 1000,
+  "card": {
+    "number": "123456789",
+    "cvv": "543",
+    "expirationDate": "2019-12-10T10:51:18.539146"
+  }
+}
+
+<> 2019-12-11T121742.202.json
+
+###
+
+POST http://localhost:8080/api/v1/payments-service/payments
+Content-Type: application/json
+
+{
+  "amount": 1000,
+  "card": {
+    "number": "123456789",
+    "cvv": "543",
+    "expirationDate": "2019-12-10T10:51:18.539146"
+  }
+}
+
+<> 2019-12-11T121704.504.json
+
+###
+
+PUT http://localhost:8080/api/v1/trips-service/trips/3
+Accept: application/json
+
+<> 2019-12-11T110630.200.json
+
+###
+
+POST http://localhost:8080/api/v1/trips-service/drivers/2/trips
+Accept: application/json
+
+<> 2019-12-11T110627.201.json
+
+###
+
+PUT http://localhost:8080/api/v1/trips-service/trips/3
+Accept: application/json
+
+<> 2019-12-11T103407.200.json
+
+###
+
+POST http://localhost:8080/api/v1/trips-service/drivers/2/trips
+Accept: application/json
+
+<> 2019-12-11T103401.201.json
+
+###
+
+PUT http://localhost:8080/api/v1/trips-service/trips/3
+Accept: application/json
+
+<> 2019-12-11T092622.200.json
+
+###
+
+POST http://localhost:8080/api/v1/trips-service/drivers/2/trips
+Accept: application/json
+
+<> 2019-12-11T092617.201.json
+
+###
+
+POST http://localhost:8888/monitor
+Content-Type: application/x-www-form-urlencoded
+
+path=trips-service
+
+<> 2019-12-11T092449.200.json
+
+###
+
+POST http://localhost:8888/monitor
+Content-Type: application/x-www-form-urlencoded
+
+paths=trips-service
+
+<> 2019-12-11T092443.400.json
+
+###
+
+PUT http://localhost:8080/api/v1/trips-service/trips/3
+Accept: application/json
+
+<> 2019-12-10T030626.200.json
+
+###
+
+POST http://localhost:8080/api/v1/trips-service/drivers/2/trips
+Accept: application/json
+
+<> 2019-12-10T030622.201.json
+
+###
+
+PUT http://localhost:8080/api/v1/trips-service/trips/3
+Accept: application/json
+
+<> 2019-12-10T124526.200.json
+
+###
+
+POST http://localhost:8080/api/v1/trips-service/drivers/2/trips
+Accept: application/json
+
+<> 2019-12-10T124521.201.json
+
+###
+
+PUT http://localhost:8080/api/v1/trips-service/trips/3
+Accept: application/json
+
+<> 2019-12-10T121237.200.json
+
+###
+
+POST http://localhost:8080/api/v1/trips-service/drivers/2/trips
+Accept: application/json
+
+<> 2019-12-10T121231.201.json
+
+###
+
+POST http://localhost:8080/api/v1/trips-service/drivers/1/trips
+Accept: application/json
+
+<> 2019-12-10T121223.404.json
+
+###
+
+POST http://localhost:8080/api/v1/trips-service/drivers/1/trips
+Accept: application/json
+
+<> 2019-12-10T115154.201.json
+
+###
+
+PUT http://localhost:8080/api/v1/trips-service/trips/2
+Accept: application/json
+
+<> 2019-12-10T114733.504.json
+
+###
+
+GET http://localhost:8080/api/v1/trips-service/trips/2
+Accept: application/json
+
+<> 2019-12-10T114719.500.json
+
+###
+
+POST http://localhost:8080/api/v1/trips-service/drivers/1/trips
+Accept: application/json
+
+<> 2019-12-10T114703.201.json
+
+###
+
+POST http://localhost:8080/api/v1/payments-service/payments
+Content-Type: application/json
+
+{
+  "amount": 1000,
+  "card": {
+    "number": "123456789",
+    "cvv": "543",
+    "expirationDate": "2019-12-10T10:51:18.539146"
+  }
+}
+
+<> 2019-12-10T105552.202.json
+
+###
+
+POST http://localhost:8080/api/v1/payments-service/payments
+Content-Type: application/json
+
+{
+  "amount": 1000,
+  "card": {
+    "number": "123456789",
+    "cvv": "543",
+    "expirationDate": "2019-12-10T10:51:18.539146"
+  }
+}
+
+<> 2019-12-10T105550.202.json
+
+###
+
+POST http://localhost:8080/api/v1/payments-service/payments
+Content-Type: application/json
+
+{
+  "amount": 1000,
+  "card": {
+    "number": "123456789",
+    "cvv": "543",
+    "expirationDate": "2019-12-10T10:51:18.539146"
+  }
+}
+
+<> 2019-12-10T105548.202.json
+
+###
+
+POST http://localhost:8080/api/v1/payments-service/payments
+Content-Type: application/json
+
+{
+  "amount": 1000,
+  "card": {
+    "number": "123456789",
+    "cvv": "543",
+    "expirationDate": "2019-12-10T10:51:18.539146"
+  }
+}
+
+<> 2019-12-10T105356.202.json
+
+###
+
+POST http://localhost:8080/api/v1/payments-service/payments
+Content-Type: application/json
+
+{
+  "amount": 1000,
+  "card": {
+    "number": "123456789",
+    "cvv": "543",
+    "expirationDate": "2019-12-10T10:51:18.539146"
+  }
+}
+
+<> 2019-12-10T105351.500.json
+
+###
+
+POST http://localhost:8080/api/v1/payments-service/payments
+Content-Type: application/json
+
+{
+  "amount": 1000,
+  "card": {
+    "number": "123456789",
+    "cvv": "543",
+    "expirationDate": "2019-12-10T10:51:18.539146"
+  }
+}
+
+<> 2019-12-10T105349.500.json
+
+###
+
+POST http://localhost:8080/api/v1/payments-service/payments
+Content-Type: application/json
+
+{
+  "amount": 1000,
+  "card": {
+    "number": "123456789",
+    "cvv": "543",
+    "expirationDate": "2019-12-10T10:51:18.539146"
+  }
+}
+
+<> 2019-12-10T105336.500.json
+
+###
+
+POST http://localhost:8080/api/v1/payments-service/payments
+Content-Type: application/json
+
+{
+  "amount": 1000,
+  "card": {
+    "number": "123456789",
+    "cvv": "543",
+    "expirationDate": "2019-12-10T10:51:18.539146"
+  }
+}
+
+<> 2019-12-10T105334.404.json
+
+###
+
+POST http://localhost:8080/api/v1/payments-service/payments
+Content-Type: application/json
+
+{
+  "amount": 1000,
+  "card": {
+    "number": "123456789",
+    "cvv": "543",
+    "expirationDate": "2019-12-10T10:51:18.539146"
+  }
+}
+
+<> 2019-12-10T105332.404.json
+
+###
+
+POST http://localhost:8080/api/v1/payments-service/payments
+Content-Type: application/json
+
+{
+  "amount": 1000,
+  "card": {
+    "number": "123456789",
+    "cvv": "543",
+    "expirationDate": "2019-12-10T10:51:18.539146"
+  }
+}
+
+<> 2019-12-10T105329.404.json
+
+###
+
+POST http://localhost:8080/api/v1/payments-service/payments
+Content-Type: application/json
+
+{
+  "amount": 1000,
+  "card": {
+    "number": "123456789",
+    "cvv": "543",
+    "expirationDate": "2019-12-10T10:51:18.539146"
+  }
+}
+
+<> 2019-12-10T105322.404.json
+
+###
+
+POST http://localhost:8080/api/v1/payments-service/payments
+Content-Type: application/json
+
+{
+  "amount": 1000,
+  "card": {
+    "number": "123456789",
+    "cvv": "543",
+    "expirationDate": "2019-12-10T10:51:18.539146"
+  }
+}
+
+<> 2019-12-10T105314.404.json
+
+###
+
+POST http://localhost:8080/api/v1/payments-service/payments
+Content-Type: application/json
+
+{
+  "amount": 1000,
+  "card": {
+    "number": "123456789",
+    "cvv": "543",
+    "expirationDate": "2019-12-10T10:51:18.539146"
+  }
+}
+
+<> 2019-12-10T105234.504.json
+
+###
+
+POST http://localhost:8080/api/v1/payments-service/payments
+Content-Type: application/json
+
+{
+  "amount": 1000,
+  "card": {
+    "number": "123456789",
+    "cvv": "543",
+    "expirationDate": "2019-12-10T10:51:18.539146"
+  }
+}
+
+<> 2019-12-10T105135.500.json
+
+###
+
+POST http://localhost:8080/api/v1/trips-service/drivers/1/trips
+Accept: application/json
+
+<> 2019-12-10T105118.201.json
+
+###
+
+POST http://localhost:8080/api/v1/payments-service/payments
+Content-Type: application/json
+
+{
+  "amount": 1000,
+  "card": {
+    "number": "123456789",
+    "cvv": "543"
+  }
+}
+
+<> 2019-12-10T105045.500.json
+
+###
+
+POST http://localhost:8080/api/v1/payments-service/payments
+Content-Type: application/json
+
+{
+  "amount": 1000,
+  "card": {
+    "number": "123456789",
+    "cvv": "543",
+    "expirationDate": null
+  }
+}
+
+<> 2019-12-10T105024.500.json
+
+###
+
+POST http://localhost:8080/api/v1/trips-service/drivers/1/trips
+Accept: application/json
+
+<> 2019-12-10T094301.201.json
+
+###
+
+GET http://localhost:8080/api/v1/authentication-service/users/2
+Accept: application/json
+
+<> 2019-12-10T094252.200.json
+
+###
+
+POST http://localhost:8080/api/v1/trips-service/drivers/1/trips
+Accept: application/json
+
+<> 2019-12-10T094249.500.json
+
+###
+
+POST http://localhost:8080/api/v1/trips-service/drivers/2/trips
+Accept: application/json
+
+<> 2019-12-10T094101.500.json
+
+###
+
+POST http://localhost:8080/api/v1/trips-service/drivers/2/trips
+Accept: application/json
+
+<> 2019-12-10T094055.500.json
+
+###
+
+POST http://localhost:8080/api/v1/trips-service/drivers/2/trips
+Accept: application/json
+
+<> 2019-12-10T094047.500.json
+
+###
+
+POST http://localhost:8080/api/v1/trips-service/drivers/1/trips
+Accept: application/json
+
+<> 2019-12-10T093844.404.json
+
+###
+
+POST http://localhost:8080/api/v1/trips-service/drivers/1/trips
+Accept: application/json
+
+<> 2019-12-10T093836.404.json
+
+###
+
+POST http://localhost:8080/api/v1/trips-service/drivers/1/trips
+Accept: application/json
+
+<> 2019-12-10T092900.504.json
+
+###
+
+POST http://localhost:8080/api/v1/authentication-service/users
+Content-Type: application/json
+
+{"firstName": "Jan", "lastName": "Kowalski"}
+
+###
+

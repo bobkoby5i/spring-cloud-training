@@ -1,0 +1,12 @@
+/Users/lukas/Desktop/cloud/authentication/src/main/java/pl/training/cloud/authentication/UriBuilder.java
+/Users/lukas/Desktop/cloud/authentication/src/main/java/pl/training/cloud/authentication/UsersService.java
+/Users/lukas/Desktop/cloud/authentication/src/main/java/pl/training/cloud/authentication/UserDto.java
+/Users/lukas/Desktop/cloud/authentication/src/main/java/pl/training/cloud/authentication/UserNotFoundException.java
+/Users/lukas/Desktop/cloud/authentication/src/main/java/pl/training/cloud/authentication/ExceptionDto.java
+/Users/lukas/Desktop/cloud/authentication/src/main/java/pl/training/cloud/authentication/GlobalExceptionHandler.java
+/Users/lukas/Desktop/cloud/authentication/src/main/java/pl/training/cloud/authentication/UsersRepository.java
+/Users/lukas/Desktop/cloud/authentication/src/main/java/pl/training/cloud/authentication/UsersConfig.java
+/Users/lukas/Desktop/cloud/authentication/src/main/java/pl/training/cloud/authentication/AuthenticationApplication.java
+/Users/lukas/Desktop/cloud/authentication/src/main/java/pl/training/cloud/authentication/User.java
+/Users/lukas/Desktop/cloud/authentication/src/main/java/pl/training/cloud/authentication/UserMapper.java
+/Users/lukas/Desktop/cloud/authentication/src/main/java/pl/training/cloud/authentication/UsersController.java

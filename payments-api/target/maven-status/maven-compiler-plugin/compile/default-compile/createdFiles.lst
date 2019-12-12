@@ -1,0 +1,5 @@
+pl/training/cloud/payments/api/CardDto.class
+pl/training/cloud/payments/api/PaymentsRequestDto.class
+pl/training/cloud/payments/api/PaymentStatusDto.class
+pl/training/cloud/payments/api/PaymentResponseDto.class
+pl/training/cloud/payments/api/Payments.class
