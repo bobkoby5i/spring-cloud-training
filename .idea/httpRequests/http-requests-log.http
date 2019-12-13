@@ -1,3 +1,35 @@
+POST http://localhost:8888/encrypt
+
+2000
+
+<> 2019-12-13T113400.200.txt
+
+###
+
+POST http://localhost:8888/decrypt
+
+96bf1d90601eb5a17abc707c05414bb18a08140ff8e093f9076264ebe163ea83
+
+<> 2019-12-13T113200.200.txt
+
+###
+
+POST http://localhost:8888/encrypt
+
+spring
+
+<> 2019-12-13T112645.200.txt
+
+###
+
+POST http://localhost:8888/encrypt
+
+sprin
+
+<> 2019-12-13T112624.200.txt
+
+###
+
 PUT http://localhost:8080/api/v1/trips-service/trips/3
 Accept: application/json
 
@@ -482,34 +514,6 @@ POST http://localhost:8080/api/v1/trips-service/drivers/2/trips
 Accept: application/json
 
 <> 2019-12-10T094047.500.json
-
-###
-
-POST http://localhost:8080/api/v1/trips-service/drivers/1/trips
-Accept: application/json
-
-<> 2019-12-10T093844.404.json
-
-###
-
-POST http://localhost:8080/api/v1/trips-service/drivers/1/trips
-Accept: application/json
-
-<> 2019-12-10T093836.404.json
-
-###
-
-POST http://localhost:8080/api/v1/trips-service/drivers/1/trips
-Accept: application/json
-
-<> 2019-12-10T092900.504.json
-
-###
-
-POST http://localhost:8080/api/v1/authentication-service/users
-Content-Type: application/json
-
-{"firstName": "Jan", "lastName": "Kowalski"}
 
 ###
 
