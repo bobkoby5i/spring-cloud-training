@@ -3,6 +3,24 @@ Content-Type: application/x-www-form-urlencoded
 
 username=jan&password=123&client_id=training&grant_type=password
 
+<> 2019-12-13T023300.404.json
+
+###
+
+POST http://localhost:8080/api/v1/authentication-service/oauth/token
+Content-Type: application/x-www-form-urlencoded
+
+username=jan&password=123&client_id=training&grant_type=password
+
+<> 2019-12-13T023236.404.json
+
+###
+
+POST http://localhost:8080/api/v1/authentication-service/oauth/token
+Content-Type: application/x-www-form-urlencoded
+
+username=jan&password=123&client_id=training&grant_type=password
+
 <> 2019-12-13T023039.401.json
 
 ###
@@ -446,20 +464,6 @@ POST http://localhost:8080/api/v1/trips-service/drivers/2/trips
 Accept: application/json
 
 <> 2019-12-10T124521.201.json
-
-###
-
-PUT http://localhost:8080/api/v1/trips-service/trips/3
-Accept: application/json
-
-<> 2019-12-10T121237.200.json
-
-###
-
-POST http://localhost:8080/api/v1/trips-service/drivers/2/trips
-Accept: application/json
-
-<> 2019-12-10T121231.201.json
 
 ###
 
