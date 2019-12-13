@@ -16,7 +16,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 @Configuration
 public class PaymentsConfig {
 
-    private static final String BASE_PACKAGE = "pl.training.cloud.payments";
+    private static final String BASE_PACKAGE = "pl.training.cloud.payments.api";
 
     @Bean
     public Docket docket() {

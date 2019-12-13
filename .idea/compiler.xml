@@ -7,15 +7,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="trips" />
-        <module name="configuration" />
-        <module name="payments" />
-        <module name="payments-api" />
-        <module name="authentication" />
         <module name="discovery" />
-        <module name="admin" />
+        <module name="authentication" />
+        <module name="payments" />
         <module name="gateway" />
         <module name="zipkin" />
+        <module name="payments-api" />
+        <module name="trips" />
+        <module name="configuration" />
+        <module name="admin" />
       </profile>
     </annotationProcessing>
   </component>
