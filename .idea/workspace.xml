@@ -2,8 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b0c10dc-2bcb-4374-8df3-6f6cfda3da98" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/authentication/src/main/java/pl/training/cloud/authentication/security/OAuthConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/src/main/java/pl/training/cloud/authentication/security/ResourceServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/src/main/java/pl/training/cloud/authentication/security/TokensConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/src/main/java/pl/training/cloud/authentication/security/WebSecurityConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configuration/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/configuration/target/classes/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authentication/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/authentication/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authentication/src/main/java/pl/training/cloud/authentication/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/authentication/src/main/java/pl/training/cloud/authentication/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authentication/src/main/java/pl/training/cloud/authentication/UserDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/authentication/src/main/java/pl/training/cloud/authentication/UserDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authentication/src/main/java/pl/training/cloud/authentication/UsersConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/authentication/src/main/java/pl/training/cloud/authentication/UsersConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authentication/src/main/java/pl/training/cloud/authentication/UsersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/authentication/src/main/java/pl/training/cloud/authentication/UsersController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authentication/src/main/java/pl/training/cloud/authentication/UsersRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/authentication/src/main/java/pl/training/cloud/authentication/UsersRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authentication/src/main/java/pl/training/cloud/authentication/UsersService.java" beforeDir="false" afterPath="$PROJECT_DIR$/authentication/src/main/java/pl/training/cloud/authentication/UsersService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration-files/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/configuration-files/application.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,8 +25,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="AnnotationType" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -56,10 +67,12 @@
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="pl.training.cloud.trips" />
-      <recent name="pl.training.cloud.trips.drivers" />
-      <recent name="pl.training.cloud.authentication" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/trips" />
+      <recent name="$PROJECT_DIR$/payments" />
+      <recent name="$PROJECT_DIR$/admin" />
+      <recent name="$PROJECT_DIR$/zipkin" />
+      <recent name="$PROJECT_DIR$/gateway" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="pl.training.cloud.trips.payments" />
@@ -67,12 +80,10 @@
       <recent name="pl.training.cloud.trips.api" />
       <recent name="pl.training.cloud.trips" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/trips" />
-      <recent name="$PROJECT_DIR$/payments" />
-      <recent name="$PROJECT_DIR$/admin" />
-      <recent name="$PROJECT_DIR$/zipkin" />
-      <recent name="$PROJECT_DIR$/gateway" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="pl.training.cloud.trips" />
+      <recent name="pl.training.cloud.trips.drivers" />
+      <recent name="pl.training.cloud.authentication" />
     </key>
   </component>
   <component name="RestClientSettings">
@@ -578,7 +589,7 @@
       <updated>1575883389174</updated>
       <workItem from="1575883391995" duration="11248000" />
       <workItem from="1575896983140" duration="53566000" />
-      <workItem from="1576231759029" duration="1949000" />
+      <workItem from="1576231759029" duration="7622000" />
     </task>
     <task id="LOCAL-00001" summary="payemnts">
       <created>1575965316362</created>
@@ -874,7 +885,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576233514914</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="payemnts">
+      <created>1576233878421</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1576233878421</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -890,10 +908,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="460" y="126" key="#Project_Structure/0.0.1920.1080@0.0.1920.1080" timestamp="1576054693757" />
-    <state x="729" y="186" key="#com.intellij.ide.util.MemberChooser" timestamp="1576052296682">
+    <state x="729" y="186" key="#com.intellij.ide.util.MemberChooser" timestamp="1576235747615">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="729" y="186" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1576052296682" />
+    <state x="729" y="186" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1576235747615" />
     <state x="635" y="239" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1576058108206">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -902,10 +920,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="612" y="211" key="#docker-compose.yml:_Compose_Deployment/0.0.1920.1080@0.0.1920.1080" timestamp="1576069262661" />
-    <state x="469" y="75" key="CommitChangelistDialog2" timestamp="1576233514773">
+    <state x="469" y="75" key="CommitChangelistDialog2" timestamp="1576233878284">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="469" y="75" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1576233514773" />
+    <state x="469" y="75" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1576233878284" />
     <state x="469" y="83" key="CommitChangelistDialog2/0.0.1920.1200@0.0.1920.1200" timestamp="1576135817762" />
     <state width="258" height="592" key="Git.Branch.Popup" timestamp="1576232488853">
       <screen x="0" y="0" width="1920" height="1080" />
@@ -972,10 +990,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="448" y="121" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1575896998738" />
-    <state x="460" y="219" key="Vcs.Push.Dialog.v2" timestamp="1576233518050">
+    <state x="460" y="219" key="Vcs.Push.Dialog.v2" timestamp="1576233879647">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="460" y="219" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1576233518050" />
+    <state x="460" y="219" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1576233879647" />
     <state x="460" y="243" key="Vcs.Push.Dialog.v2/0.0.1920.1200@0.0.1920.1200" timestamp="1576135826010" />
     <state x="100" y="100" width="1720" height="880" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1575965827516">
       <screen x="0" y="0" width="1920" height="1080" />
