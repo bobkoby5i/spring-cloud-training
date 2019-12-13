@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b0c10dc-2bcb-4374-8df3-6f6cfda3da98" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/books.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -806,14 +805,7 @@
       <updated>1575883389174</updated>
       <workItem from="1575883391995" duration="11248000" />
       <workItem from="1575896983140" duration="53566000" />
-      <workItem from="1576231759029" duration="12586000" />
-    </task>
-    <task id="LOCAL-00001" summary="payemnts">
-      <created>1575965316362</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1575965316362</updated>
+      <workItem from="1576231759029" duration="12734000" />
     </task>
     <task id="LOCAL-00002" summary="payemnts">
       <created>1575965383004</created>
@@ -1151,7 +1143,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576247867320</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="payemnts">
+      <created>1576248962954</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1576248962955</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1179,10 +1178,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="612" y="211" key="#docker-compose.yml:_Compose_Deployment/0.0.1920.1080@0.0.1920.1080" timestamp="1576069262661" />
-    <state x="469" y="75" key="CommitChangelistDialog2" timestamp="1576247866366">
+    <state x="469" y="75" key="CommitChangelistDialog2" timestamp="1576248962802">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="469" y="75" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1576247866366" />
+    <state x="469" y="75" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1576248962802" />
     <state x="469" y="83" key="CommitChangelistDialog2/0.0.1920.1200@0.0.1920.1200" timestamp="1576135817762" />
     <state width="258" height="592" key="Git.Branch.Popup" timestamp="1576232488853">
       <screen x="0" y="0" width="1920" height="1080" />
@@ -1249,10 +1248,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="448" y="121" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1575896998738" />
-    <state x="460" y="219" key="Vcs.Push.Dialog.v2" timestamp="1576247869092">
+    <state x="460" y="219" key="Vcs.Push.Dialog.v2" timestamp="1576248964472">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="460" y="219" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1576247869092" />
+    <state x="460" y="219" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1576248964472" />
     <state x="460" y="243" key="Vcs.Push.Dialog.v2/0.0.1920.1200@0.0.1920.1200" timestamp="1576135826010" />
     <state x="100" y="100" width="1720" height="880" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1575965827516">
       <screen x="0" y="0" width="1920" height="1080" />
