@@ -105,3 +105,9 @@ Content-Type: application/x-www-form-urlencoded
 username=jan&password=123&client_id=training&grant_type=password
 
 ###
+
+GET http://localhost:8080/api/v1/authentication-service/users/active
+Accept: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NzYyODc2NDEsInVzZXJfbmFtZSI6ImphbiIsImF1dGhvcml0aWVzIjpbIlJPTEVfVVNFUiJdLCJqdGkiOiIyMzA3MGQ3YS05YWZiLTRjNDUtYjg1Yi04OWZiMDM2YWQ1MWIiLCJjbGllbnRfaWQiOiJ0cmFpbmluZyIsInNjb3BlIjpbImFwaSJdfQ.tB1HaO3X2wE6iPclw72ub9tqp4aDAux4NE4-h3Q1bdU
+
+###
