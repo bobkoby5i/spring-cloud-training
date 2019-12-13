@@ -1,1 +1,0 @@
-{"timestamp":"2019-12-11T08:24:42.998+0000","status":400,"error":"Bad Request","message":"Required List parameter 'path' is not present","path":"/monitor"}

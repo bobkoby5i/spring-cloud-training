@@ -30,17 +30,20 @@ Accept: application/json
 
 POST {{baseUrl}}/api/v1/trips-service/drivers/2/trips
 Accept: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NzYyODc4NTIsInVzZXJfbmFtZSI6ImphbiIsImF1dGhvcml0aWVzIjpbIlJPTEVfVVNFUiJdLCJqdGkiOiI1ZGU2ZDFlMC1lYTliLTRhM2QtYWM1Yi0wOGE1MmNiZTRiODEiLCJjbGllbnRfaWQiOiJ0cmFpbmluZyIsInNjb3BlIjpbImFwaSJdfQ.ngcUrPAUgFqS2R8Nwo0bgZcK8n-nTqHWKKt6hFMt2lQ
 
 
 ###
 
 PUT {{baseUrl}}/api/v1/trips-service/trips/3
 Accept: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NzYyODc4NTIsInVzZXJfbmFtZSI6ImphbiIsImF1dGhvcml0aWVzIjpbIlJPTEVfVVNFUiJdLCJqdGkiOiI1ZGU2ZDFlMC1lYTliLTRhM2QtYWM1Yi0wOGE1MmNiZTRiODEiLCJjbGllbnRfaWQiOiJ0cmFpbmluZyIsInNjb3BlIjpbImFwaSJdfQ.ngcUrPAUgFqS2R8Nwo0bgZcK8n-nTqHWKKt6hFMt2lQ
 
 ###
 
 POST {{baseUrl}}/api/v1/payments-service/payments
 Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NzYyODc4NTIsInVzZXJfbmFtZSI6ImphbiIsImF1dGhvcml0aWVzIjpbIlJPTEVfVVNFUiJdLCJqdGkiOiI1ZGU2ZDFlMC1lYTliLTRhM2QtYWM1Yi0wOGE1MmNiZTRiODEiLCJjbGllbnRfaWQiOiJ0cmFpbmluZyIsInNjb3BlIjpbImFwaSJdfQ.ngcUrPAUgFqS2R8Nwo0bgZcK8n-nTqHWKKt6hFMt2lQ
 
 {
   "amount": 1000,
@@ -55,6 +58,8 @@ Content-Type: application/json
 
 POST http://localhost:8002/payments
 Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NzYyODc4NTIsInVzZXJfbmFtZSI6ImphbiIsImF1dGhvcml0aWVzIjpbIlJPTEVfVVNFUiJdLCJqdGkiOiI1ZGU2ZDFlMC1lYTliLTRhM2QtYWM1Yi0wOGE1MmNiZTRiODEiLCJjbGllbnRfaWQiOiJ0cmFpbmluZyIsInNjb3BlIjpbImFwaSJdfQ.ngcUrPAUgFqS2R8Nwo0bgZcK8n-nTqHWKKt6hFMt2lQ
+
 
 {
   "amount": 1000,
@@ -108,6 +113,6 @@ username=jan&password=123&client_id=training&grant_type=password
 
 GET http://localhost:8080/api/v1/authentication-service/users/active
 Accept: application/json
-Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NzYyODc2NDEsInVzZXJfbmFtZSI6ImphbiIsImF1dGhvcml0aWVzIjpbIlJPTEVfVVNFUiJdLCJqdGkiOiIyMzA3MGQ3YS05YWZiLTRjNDUtYjg1Yi04OWZiMDM2YWQ1MWIiLCJjbGllbnRfaWQiOiJ0cmFpbmluZyIsInNjb3BlIjpbImFwaSJdfQ.tB1HaO3X2wE6iPclw72ub9tqp4aDAux4NE4-h3Q1bdU
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NzYyODc4NTIsInVzZXJfbmFtZSI6ImphbiIsImF1dGhvcml0aWVzIjpbIlJPTEVfVVNFUiJdLCJqdGkiOiI1ZGU2ZDFlMC1lYTliLTRhM2QtYWM1Yi0wOGE1MmNiZTRiODEiLCJjbGllbnRfaWQiOiJ0cmFpbmluZyIsInNjb3BlIjpbImFwaSJdfQ.ngcUrPAUgFqS2R8Nwo0bgZcK8n-nTqHWKKt6hFMt2lQ
 
 ###
