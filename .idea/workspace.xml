@@ -2,61 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b0c10dc-2bcb-4374-8df3-6f6cfda3da98" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/payments/src/main/java/pl/training/cloud/payments/security/ResourceServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payments/src/main/java/pl/training/cloud/payments/security/TokensConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trips/src/main/java/pl/training/cloud/trips/security/FeignAuthorizationTokenInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trips/src/main/java/pl/training/cloud/trips/security/ResourceServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trips/src/main/java/pl/training/cloud/trips/security/TokensConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-12-10T030622.201.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-12-10T030626.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-12-10T124521.201.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-12-10T124526.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-12-11T035123.201.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-12-11T035132.504.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-12-11T092443.400.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-12-11T092449.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-12-11T092617.201.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-12-11T092622.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-12-11T103401.201.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-12-11T103407.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-12-11T110627.201.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-12-11T110630.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-12-11T121704.504.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-12-11T121742.202.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/books.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authentication/target/authentication-0.0.1-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/authentication/target/authentication-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/authentication/target/classes/application.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/authentication/target/classes/bootstrap.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/authentication/target/classes/messages.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/authentication/target/classes/messages_pl_PL.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/authentication/target/classes/pl/training/cloud/authentication/AuthenticationApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/authentication/target/classes/pl/training/cloud/authentication/ExceptionDto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/authentication/target/classes/pl/training/cloud/authentication/GlobalExceptionHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/authentication/target/classes/pl/training/cloud/authentication/UriBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/authentication/target/classes/pl/training/cloud/authentication/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/authentication/target/classes/pl/training/cloud/authentication/UserDto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/authentication/target/classes/pl/training/cloud/authentication/UserMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/authentication/target/classes/pl/training/cloud/authentication/UserMapperImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/authentication/target/classes/pl/training/cloud/authentication/UserNotFoundException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/authentication/target/classes/pl/training/cloud/authentication/UsersConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/authentication/target/classes/pl/training/cloud/authentication/UsersController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/authentication/target/classes/pl/training/cloud/authentication/UsersRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/authentication/target/classes/pl/training/cloud/authentication/UsersService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/authentication/target/generated-sources/annotations/pl/training/cloud/authentication/UserMapperImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/authentication/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/authentication/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/authentication/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/authentication/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/authentication/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client.http" beforeDir="false" afterPath="$PROJECT_DIR$/client.http" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/payments/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/payments/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/payments/target/generated-sources/annotations/pl/training/cloud/payments/CreditCardMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/payments/target/generated-sources/annotations/pl/training/cloud/payments/CreditCardMapperImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/payments/target/generated-sources/annotations/pl/training/cloud/payments/PaymentMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/payments/target/generated-sources/annotations/pl/training/cloud/payments/PaymentMapperImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trips/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/trips/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trips/target/generated-sources/annotations/pl/training/cloud/trips/TripMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/trips/target/generated-sources/annotations/pl/training/cloud/trips/TripMapperImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trips/target/generated-sources/annotations/pl/training/cloud/trips/payments/PaymentMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/trips/target/generated-sources/annotations/pl/training/cloud/trips/payments/PaymentMapperImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,6 +80,59 @@
     <option name="REQUEST_HISTORY">
       <list>
         <RestClientRequest>
+          <option name="httpMethod" value="PUT" />
+          <option name="urlBase" value="http://localhost:8080/api/v1/trips-service/trips/3" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Authorization" />
+                <option name="value" value="bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NzYyODc4NTIsInVzZXJfbmFtZSI6ImphbiIsImF1dGhvcml0aWVzIjpbIlJPTEVfVVNFUiJdLCJqdGkiOiI1ZGU2ZDFlMC1lYTliLTRhM2QtYWM1Yi0wOGE1MmNiZTRiODEiLCJjbGllbnRfaWQiOiJ0cmFpbmluZyIsInNjb3BlIjpbImFwaSJdfQ.ngcUrPAUgFqS2R8Nwo0bgZcK8n-nTqHWKKt6hFMt2lQ" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8080/api/v1/trips-service/drivers/2/trips" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Authorization" />
+                <option name="value" value="bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NzYyODc4NTIsInVzZXJfbmFtZSI6ImphbiIsImF1dGhvcml0aWVzIjpbIlJPTEVfVVNFUiJdLCJqdGkiOiI1ZGU2ZDFlMC1lYTliLTRhM2QtYWM1Yi0wOGE1MmNiZTRiODEiLCJjbGllbnRfaWQiOiJ0cmFpbmluZyIsInNjb3BlIjpbImFwaSJdfQ.ngcUrPAUgFqS2R8Nwo0bgZcK8n-nTqHWKKt6hFMt2lQ" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080/api/v1/authentication-service/users/2" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
           <option name="httpMethod" value="POST" />
           <option name="urlBase" value="http://localhost:8002/payments" />
           <option name="urlPath" value="" />
@@ -186,44 +186,6 @@
           </option>
           <option name="haveTextToSend" value="true" />
           <option name="textToSend" value="{&#10;  &quot;amount&quot;: 1000,&#10;  &quot;card&quot;: {&#10;    &quot;number&quot;: &quot;123456789&quot;,&#10;    &quot;cvv&quot;: &quot;543&quot;,&#10;    &quot;expirationDate&quot;: &quot;2019-12-10T10:51:18.539146&quot;&#10;  }&#10;}" />
-          <option name="filesToSend" value="" />
-        </RestClientRequest>
-        <RestClientRequest>
-          <option name="httpMethod" value="PUT" />
-          <option name="urlBase" value="http://localhost:8080/api/v1/trips-service/trips/3" />
-          <option name="urlPath" value="" />
-          <option name="headers">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="Accept" />
-                <option name="value" value="application/json" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Authorization" />
-                <option name="value" value="bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NzYyODc4NTIsInVzZXJfbmFtZSI6ImphbiIsImF1dGhvcml0aWVzIjpbIlJPTEVfVVNFUiJdLCJqdGkiOiI1ZGU2ZDFlMC1lYTliLTRhM2QtYWM1Yi0wOGE1MmNiZTRiODEiLCJjbGllbnRfaWQiOiJ0cmFpbmluZyIsInNjb3BlIjpbImFwaSJdfQ.ngcUrPAUgFqS2R8Nwo0bgZcK8n-nTqHWKKt6hFMt2lQ" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="textToSend" value="" />
-          <option name="filesToSend" value="" />
-        </RestClientRequest>
-        <RestClientRequest>
-          <option name="httpMethod" value="POST" />
-          <option name="urlBase" value="http://localhost:8080/api/v1/trips-service/drivers/2/trips" />
-          <option name="urlPath" value="" />
-          <option name="headers">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="Accept" />
-                <option name="value" value="application/json" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Authorization" />
-                <option name="value" value="bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NzYyODc4NTIsInVzZXJfbmFtZSI6ImphbiIsImF1dGhvcml0aWVzIjpbIlJPTEVfVVNFUiJdLCJqdGkiOiI1ZGU2ZDFlMC1lYTliLTRhM2QtYWM1Yi0wOGE1MmNiZTRiODEiLCJjbGllbnRfaWQiOiJ0cmFpbmluZyIsInNjb3BlIjpbImFwaSJdfQ.ngcUrPAUgFqS2R8Nwo0bgZcK8n-nTqHWKKt6hFMt2lQ" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="textToSend" value="" />
           <option name="filesToSend" value="" />
         </RestClientRequest>
         <RestClientRequest>
@@ -563,21 +525,6 @@
           <option name="filesToSend" value="" />
         </RestClientRequest>
         <RestClientRequest>
-          <option name="httpMethod" value="GET" />
-          <option name="urlBase" value="http://localhost:8080/api/v1/authentication-service/users/2" />
-          <option name="urlPath" value="" />
-          <option name="headers">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="Accept" />
-                <option name="value" value="application/json" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="textToSend" value="" />
-          <option name="filesToSend" value="" />
-        </RestClientRequest>
-        <RestClientRequest>
           <option name="httpMethod" value="POST" />
           <option name="urlBase" value="http://localhost:8080/api/v1/authentication-service/users" />
           <option name="urlPath" value="" />
@@ -841,11 +788,6 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
                 <item name="Not Started" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
             </expand>
@@ -864,7 +806,7 @@
       <updated>1575883389174</updated>
       <workItem from="1575883391995" duration="11248000" />
       <workItem from="1575896983140" duration="53566000" />
-      <workItem from="1576231759029" duration="11727000" />
+      <workItem from="1576231759029" duration="12586000" />
     </task>
     <task id="LOCAL-00001" summary="payemnts">
       <created>1575965316362</created>
@@ -1202,7 +1144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576244601041</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="payemnts">
+      <created>1576247867320</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1576247867320</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1230,10 +1179,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="612" y="211" key="#docker-compose.yml:_Compose_Deployment/0.0.1920.1080@0.0.1920.1080" timestamp="1576069262661" />
-    <state x="469" y="75" key="CommitChangelistDialog2" timestamp="1576244600875">
+    <state x="469" y="75" key="CommitChangelistDialog2" timestamp="1576247866366">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="469" y="75" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1576244600875" />
+    <state x="469" y="75" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1576247866366" />
     <state x="469" y="83" key="CommitChangelistDialog2/0.0.1920.1200@0.0.1920.1200" timestamp="1576135817762" />
     <state width="258" height="592" key="Git.Branch.Popup" timestamp="1576232488853">
       <screen x="0" y="0" width="1920" height="1080" />
@@ -1300,10 +1249,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="448" y="121" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1575896998738" />
-    <state x="460" y="219" key="Vcs.Push.Dialog.v2" timestamp="1576244602190">
+    <state x="460" y="219" key="Vcs.Push.Dialog.v2" timestamp="1576247869092">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="460" y="219" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1576244602190" />
+    <state x="460" y="219" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1576247869092" />
     <state x="460" y="243" key="Vcs.Push.Dialog.v2/0.0.1920.1200@0.0.1920.1200" timestamp="1576135826010" />
     <state x="100" y="100" width="1720" height="880" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1575965827516">
       <screen x="0" y="0" width="1920" height="1080" />
