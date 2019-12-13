@@ -1,3 +1,288 @@
+POST http://localhost:8080/api/v1/authentication-service/oauth/token
+Content-Type: application/x-www-form-urlencoded
+
+username=jan&password=123&client_id=training&grant_type=password
+
+<> 2019-12-13T023039.401.json
+
+###
+
+POST http://localhost:8080/api/v1/authentication-service/oauth/token
+Content-Type: application/x-www-form-urlencoded
+
+username=jan&password=123&client_id=training&grant_type=password
+
+<> 2019-12-13T023033.500.json
+
+###
+
+POST http://localhost:8080/api/v1/authentication-service/oauth/token
+Content-Type: application/x-www-form-urlencoded
+
+username=jan&password=123&client_id=training&grant_type=password
+
+<> 2019-12-13T023030.404.json
+
+###
+
+POST http://localhost:8080/api/v1/authentication-service/oauth/token
+Content-Type: application/x-www-form-urlencoded
+
+username=jan&password=123&client_id=training&grant_type=password
+
+<> 2019-12-13T023025.404.json
+
+###
+
+POST http://localhost:8080/api/v1/authentication-service/oauth/token
+Content-Type: application/x-www-form-urlencoded
+
+username=jan&password=123&client_id=training&grant_type=password
+
+<> 2019-12-13T023020.404.json
+
+###
+
+POST http://localhost:8080/api/v1/authentication-service/oauth/token
+Content-Type: application/x-www-form-urlencoded
+
+username=jan&password=123&client_id=training&grant_type=password
+
+<> 2019-12-13T023017.404.json
+
+###
+
+POST http://localhost:8080/api/v1/authentication-service/oauth/token
+Content-Type: application/x-www-form-urlencoded
+
+username=jan&password=123&client_id=training&grant_type=password
+
+<> 2019-12-13T023011.404.json
+
+###
+
+POST http://localhost:8000/users
+Content-Type: application/json
+
+{
+  "firstName": "Jan",
+  "lastName": "Kowalski",
+  "username": "jan",
+  "password": "123"
+}
+
+###
+
+POST http://localhost:8080/api/v1/authentication-service/oauth/token
+Content-Type: application/x-www-form-urlencoded
+
+username=jan&password=123&grant_type=password
+
+<> 2019-12-13T022850.401.json
+
+###
+
+POST http://localhost:8080/api/v1/authentication-service/oauth/token
+Content-Type: application/x-www-form-urlencoded
+
+username=jan&password=123&client_id=training&grant_type=dd
+
+<> 2019-12-13T022841.401.json
+
+###
+
+POST http://localhost:8080/api/v1/authentication-service/oauth/token
+Content-Type: application/x-www-form-urlencoded
+
+username=jan&password=123&client_id=training&grant_type=password
+
+<> 2019-12-13T022704.401.json
+
+###
+
+POST http://localhost:8000/users
+Content-Type: application/json
+
+{
+  "firstName": "Jan",
+  "lastName": "Kowalski",
+  "username": "jan",
+  "password": "123"
+}
+
+###
+
+POST http://localhost:8080/api/v1/authentication-service/oauth/token
+Content-Type: application/x-www-form-urlencoded
+
+username=jan&password=123&client_id=training&grant_type=password
+
+<> 2019-12-13T022528.401.json
+
+###
+
+POST http://localhost:8000/users
+Content-Type: application/json
+
+{
+  "firstName": "Jan",
+  "lastName": "Kowalski",
+  "username": "jan",
+  "password": "123"
+}
+
+###
+
+POST http://localhost:8080/api/v1/authentication-service/oauth/token
+Content-Type: application/x-www-form-urlencoded
+
+username=jan&password=123&client_id=training&grant_type=password
+
+<> 2019-12-13T022410.401.json
+
+###
+
+POST http://localhost:8000/users
+Content-Type: application/json
+
+{
+  "firstName": "Jan",
+  "lastName": "Kowalski",
+  "username": "jan",
+  "password": "123"
+}
+
+###
+
+POST http://localhost:8080/api/v1/authentication-service/oauth/token
+Content-Type: application/x-www-form-urlencoded
+
+username=jan&password=123&client_id=training&grant_type=password
+
+<> 2019-12-13T022206.401.json
+
+###
+
+POST http://localhost:8080/api/v1/authentication-service/oauth/token
+Content-Type: application/x-www-form-urlencoded
+
+username=jan&password=123&client_id=training&grant_type=password
+
+<> 2019-12-13T022200.404.json
+
+###
+
+POST http://localhost:8000/users
+Content-Type: application/json
+
+{
+  "firstName": "Jan",
+  "lastName": "Kowalski",
+  "username": "jan",
+  "password": "123"
+}
+
+###
+
+POST http://localhost:8080/api/v1/authentication-service/oauth/token
+Content-Type: application/x-www-form-urlencoded
+
+username=jan&password=123&client_id=training&grant_type=password
+
+<> 2019-12-13T022034.401.json
+
+###
+
+POST http://localhost:8000/users
+Content-Type: application/json
+
+{
+  "firstName": "Jan",
+  "lastName": "Kowalski",
+  "username": "jan",
+  "password": "123"
+}
+
+###
+
+POST http://localhost:8888/decrypt
+
+96bf1d90601eb5a17abc707c05414bb18a08140ff8e093f9076264ebe163ea83
+
+<> 2019-12-13T021928.200.txt
+
+###
+
+POST http://localhost:8000/users
+Content-Type: application/json
+
+{
+  "firstName": "Jan",
+  "lastName": "Kowalski",
+  "username": "jan",
+  "password": "123"
+}
+
+###
+
+POST http://localhost:8000/users
+Content-Type: application/json
+
+{
+  "firstName": "Jan",
+  "lastName": "Kowalski",
+  "username": "jan",
+  "password": "123"
+}
+
+###
+
+POST http://localhost:8080/users
+Content-Type: application/json
+
+{
+  "firstName": "Jan",
+  "lastName": "Kowalski",
+  "username": "jan",
+  "password": "123"
+}
+
+<> 2019-12-13T021713.404.json
+
+###
+
+POST http://localhost:8080/api/v1/authentication-service/users
+Content-Type: application/json
+
+{
+  "firstName": "Jan",
+  "lastName": "Kowalski",
+  "username": "jan",
+  "password": "123"
+}
+
+<> 2019-12-13T021625.504.json
+
+###
+
+POST http://localhost:8080/api/v1/authentication-service/oauth/token
+Content-Type: application/x-www-form-urlencoded
+
+username=jan&password=123&client_id=training&grant_type=password
+
+<> 2019-12-13T021510.504.json
+
+###
+
+POST http://localhost:8080/api/v1/authentication-service/oauth/token
+Content-Type: application/x-www-form-urlencoded
+
+username=jan&password=123&client_id=training&grant_type=password
+
+<> 2019-12-13T021505.504.json
+
+###
+
 POST http://localhost:8888/encrypt
 
 2000
@@ -175,345 +460,6 @@ POST http://localhost:8080/api/v1/trips-service/drivers/2/trips
 Accept: application/json
 
 <> 2019-12-10T121231.201.json
-
-###
-
-POST http://localhost:8080/api/v1/trips-service/drivers/1/trips
-Accept: application/json
-
-<> 2019-12-10T121223.404.json
-
-###
-
-POST http://localhost:8080/api/v1/trips-service/drivers/1/trips
-Accept: application/json
-
-<> 2019-12-10T115154.201.json
-
-###
-
-PUT http://localhost:8080/api/v1/trips-service/trips/2
-Accept: application/json
-
-<> 2019-12-10T114733.504.json
-
-###
-
-GET http://localhost:8080/api/v1/trips-service/trips/2
-Accept: application/json
-
-<> 2019-12-10T114719.500.json
-
-###
-
-POST http://localhost:8080/api/v1/trips-service/drivers/1/trips
-Accept: application/json
-
-<> 2019-12-10T114703.201.json
-
-###
-
-POST http://localhost:8080/api/v1/payments-service/payments
-Content-Type: application/json
-
-{
-  "amount": 1000,
-  "card": {
-    "number": "123456789",
-    "cvv": "543",
-    "expirationDate": "2019-12-10T10:51:18.539146"
-  }
-}
-
-<> 2019-12-10T105552.202.json
-
-###
-
-POST http://localhost:8080/api/v1/payments-service/payments
-Content-Type: application/json
-
-{
-  "amount": 1000,
-  "card": {
-    "number": "123456789",
-    "cvv": "543",
-    "expirationDate": "2019-12-10T10:51:18.539146"
-  }
-}
-
-<> 2019-12-10T105550.202.json
-
-###
-
-POST http://localhost:8080/api/v1/payments-service/payments
-Content-Type: application/json
-
-{
-  "amount": 1000,
-  "card": {
-    "number": "123456789",
-    "cvv": "543",
-    "expirationDate": "2019-12-10T10:51:18.539146"
-  }
-}
-
-<> 2019-12-10T105548.202.json
-
-###
-
-POST http://localhost:8080/api/v1/payments-service/payments
-Content-Type: application/json
-
-{
-  "amount": 1000,
-  "card": {
-    "number": "123456789",
-    "cvv": "543",
-    "expirationDate": "2019-12-10T10:51:18.539146"
-  }
-}
-
-<> 2019-12-10T105356.202.json
-
-###
-
-POST http://localhost:8080/api/v1/payments-service/payments
-Content-Type: application/json
-
-{
-  "amount": 1000,
-  "card": {
-    "number": "123456789",
-    "cvv": "543",
-    "expirationDate": "2019-12-10T10:51:18.539146"
-  }
-}
-
-<> 2019-12-10T105351.500.json
-
-###
-
-POST http://localhost:8080/api/v1/payments-service/payments
-Content-Type: application/json
-
-{
-  "amount": 1000,
-  "card": {
-    "number": "123456789",
-    "cvv": "543",
-    "expirationDate": "2019-12-10T10:51:18.539146"
-  }
-}
-
-<> 2019-12-10T105349.500.json
-
-###
-
-POST http://localhost:8080/api/v1/payments-service/payments
-Content-Type: application/json
-
-{
-  "amount": 1000,
-  "card": {
-    "number": "123456789",
-    "cvv": "543",
-    "expirationDate": "2019-12-10T10:51:18.539146"
-  }
-}
-
-<> 2019-12-10T105336.500.json
-
-###
-
-POST http://localhost:8080/api/v1/payments-service/payments
-Content-Type: application/json
-
-{
-  "amount": 1000,
-  "card": {
-    "number": "123456789",
-    "cvv": "543",
-    "expirationDate": "2019-12-10T10:51:18.539146"
-  }
-}
-
-<> 2019-12-10T105334.404.json
-
-###
-
-POST http://localhost:8080/api/v1/payments-service/payments
-Content-Type: application/json
-
-{
-  "amount": 1000,
-  "card": {
-    "number": "123456789",
-    "cvv": "543",
-    "expirationDate": "2019-12-10T10:51:18.539146"
-  }
-}
-
-<> 2019-12-10T105332.404.json
-
-###
-
-POST http://localhost:8080/api/v1/payments-service/payments
-Content-Type: application/json
-
-{
-  "amount": 1000,
-  "card": {
-    "number": "123456789",
-    "cvv": "543",
-    "expirationDate": "2019-12-10T10:51:18.539146"
-  }
-}
-
-<> 2019-12-10T105329.404.json
-
-###
-
-POST http://localhost:8080/api/v1/payments-service/payments
-Content-Type: application/json
-
-{
-  "amount": 1000,
-  "card": {
-    "number": "123456789",
-    "cvv": "543",
-    "expirationDate": "2019-12-10T10:51:18.539146"
-  }
-}
-
-<> 2019-12-10T105322.404.json
-
-###
-
-POST http://localhost:8080/api/v1/payments-service/payments
-Content-Type: application/json
-
-{
-  "amount": 1000,
-  "card": {
-    "number": "123456789",
-    "cvv": "543",
-    "expirationDate": "2019-12-10T10:51:18.539146"
-  }
-}
-
-<> 2019-12-10T105314.404.json
-
-###
-
-POST http://localhost:8080/api/v1/payments-service/payments
-Content-Type: application/json
-
-{
-  "amount": 1000,
-  "card": {
-    "number": "123456789",
-    "cvv": "543",
-    "expirationDate": "2019-12-10T10:51:18.539146"
-  }
-}
-
-<> 2019-12-10T105234.504.json
-
-###
-
-POST http://localhost:8080/api/v1/payments-service/payments
-Content-Type: application/json
-
-{
-  "amount": 1000,
-  "card": {
-    "number": "123456789",
-    "cvv": "543",
-    "expirationDate": "2019-12-10T10:51:18.539146"
-  }
-}
-
-<> 2019-12-10T105135.500.json
-
-###
-
-POST http://localhost:8080/api/v1/trips-service/drivers/1/trips
-Accept: application/json
-
-<> 2019-12-10T105118.201.json
-
-###
-
-POST http://localhost:8080/api/v1/payments-service/payments
-Content-Type: application/json
-
-{
-  "amount": 1000,
-  "card": {
-    "number": "123456789",
-    "cvv": "543"
-  }
-}
-
-<> 2019-12-10T105045.500.json
-
-###
-
-POST http://localhost:8080/api/v1/payments-service/payments
-Content-Type: application/json
-
-{
-  "amount": 1000,
-  "card": {
-    "number": "123456789",
-    "cvv": "543",
-    "expirationDate": null
-  }
-}
-
-<> 2019-12-10T105024.500.json
-
-###
-
-POST http://localhost:8080/api/v1/trips-service/drivers/1/trips
-Accept: application/json
-
-<> 2019-12-10T094301.201.json
-
-###
-
-GET http://localhost:8080/api/v1/authentication-service/users/2
-Accept: application/json
-
-<> 2019-12-10T094252.200.json
-
-###
-
-POST http://localhost:8080/api/v1/trips-service/drivers/1/trips
-Accept: application/json
-
-<> 2019-12-10T094249.500.json
-
-###
-
-POST http://localhost:8080/api/v1/trips-service/drivers/2/trips
-Accept: application/json
-
-<> 2019-12-10T094101.500.json
-
-###
-
-POST http://localhost:8080/api/v1/trips-service/drivers/2/trips
-Accept: application/json
-
-<> 2019-12-10T094055.500.json
-
-###
-
-POST http://localhost:8080/api/v1/trips-service/drivers/2/trips
-Accept: application/json
-
-<> 2019-12-10T094047.500.json
 
 ###
 

@@ -2,19 +2,43 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b0c10dc-2bcb-4374-8df3-6f6cfda3da98" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/authentication/src/main/java/pl/training/cloud/authentication/security/OAuthConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentication/src/main/java/pl/training/cloud/authentication/security/ResourceServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentication/src/main/java/pl/training/cloud/authentication/security/TokensConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentication/src/main/java/pl/training/cloud/authentication/security/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-12-10T094047.500.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-12-10T094055.500.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-12-10T094101.500.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-12-10T094249.500.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-12-10T094252.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-12-10T094301.201.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-12-10T105024.500.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-12-10T105045.500.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-12-10T105118.201.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-12-10T105135.500.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-12-10T105234.504.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-12-10T105314.404.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-12-10T105322.404.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-12-10T105329.404.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-12-10T105332.404.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-12-10T105334.404.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-12-10T105336.500.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-12-10T105349.500.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-12-10T105351.500.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-12-10T105356.202.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authentication/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/authentication/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authentication/src/main/java/pl/training/cloud/authentication/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/authentication/src/main/java/pl/training/cloud/authentication/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authentication/src/main/java/pl/training/cloud/authentication/UserDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/authentication/src/main/java/pl/training/cloud/authentication/UserDto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/authentication/src/main/java/pl/training/cloud/authentication/UsersConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/authentication/src/main/java/pl/training/cloud/authentication/UsersConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authentication/src/main/java/pl/training/cloud/authentication/UsersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/authentication/src/main/java/pl/training/cloud/authentication/UsersController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authentication/src/main/java/pl/training/cloud/authentication/UsersRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/authentication/src/main/java/pl/training/cloud/authentication/UsersRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authentication/src/main/java/pl/training/cloud/authentication/UsersService.java" beforeDir="false" afterPath="$PROJECT_DIR$/authentication/src/main/java/pl/training/cloud/authentication/UsersService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configuration-files/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/configuration-files/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authentication/src/main/java/pl/training/cloud/authentication/security/OAuthConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/authentication/src/main/java/pl/training/cloud/authentication/security/OAuthConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authentication/target/authentication-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/authentication/target/authentication-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authentication/target/authentication-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/authentication/target/authentication-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authentication/target/classes/pl/training/cloud/authentication/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/authentication/target/classes/pl/training/cloud/authentication/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authentication/target/classes/pl/training/cloud/authentication/UserDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/authentication/target/classes/pl/training/cloud/authentication/UserDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authentication/target/classes/pl/training/cloud/authentication/UserMapperImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/authentication/target/classes/pl/training/cloud/authentication/UserMapperImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authentication/target/classes/pl/training/cloud/authentication/UsersConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/authentication/target/classes/pl/training/cloud/authentication/UsersConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authentication/target/classes/pl/training/cloud/authentication/UsersController.class" beforeDir="false" afterPath="$PROJECT_DIR$/authentication/target/classes/pl/training/cloud/authentication/UsersController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authentication/target/classes/pl/training/cloud/authentication/UsersRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/authentication/target/classes/pl/training/cloud/authentication/UsersRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authentication/target/classes/pl/training/cloud/authentication/UsersService.class" beforeDir="false" afterPath="$PROJECT_DIR$/authentication/target/classes/pl/training/cloud/authentication/UsersService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authentication/target/generated-sources/annotations/pl/training/cloud/authentication/UserMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/authentication/target/generated-sources/annotations/pl/training/cloud/authentication/UserMapperImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authentication/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/authentication/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authentication/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/authentication/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client.http" beforeDir="false" afterPath="$PROJECT_DIR$/client.http" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,10 +115,66 @@
       <list>
         <RestClientRequest>
           <option name="httpMethod" value="POST" />
-          <option name="urlBase" value="http://localhost:8888/encrypt" />
+          <option name="urlBase" value="http://localhost:8080/api/v1/authentication-service/oauth/token" />
           <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/x-www-form-urlencoded" />
+              </KeyValuePair>
+            </list>
+          </option>
           <option name="haveTextToSend" value="true" />
-          <option name="textToSend" value="2000" />
+          <option name="textToSend" value="username=jan&amp;password=123&amp;grant_type=password" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8080/api/v1/authentication-service/oauth/token" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/x-www-form-urlencoded" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="username=jan&amp;password=123&amp;client_id=training&amp;grant_type=dd" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8080/api/v1/authentication-service/oauth/token" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/x-www-form-urlencoded" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="username=jan&amp;password=123&amp;client_id=training&amp;grant_type=password" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8000/users" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;firstName&quot;: &quot;Jan&quot;,&#10;  &quot;lastName&quot;: &quot;Kowalski&quot;,&#10;  &quot;username&quot;: &quot;jan&quot;,&#10;  &quot;password&quot;: &quot;123&quot;&#10;}" />
           <option name="filesToSend" value="" />
         </RestClientRequest>
         <RestClientRequest>
@@ -103,6 +183,46 @@
           <option name="urlPath" value="" />
           <option name="haveTextToSend" value="true" />
           <option name="textToSend" value="96bf1d90601eb5a17abc707c05414bb18a08140ff8e093f9076264ebe163ea83" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8080/users" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;firstName&quot;: &quot;Jan&quot;,&#10;  &quot;lastName&quot;: &quot;Kowalski&quot;,&#10;  &quot;username&quot;: &quot;jan&quot;,&#10;  &quot;password&quot;: &quot;123&quot;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8080/api/v1/authentication-service/users" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;firstName&quot;: &quot;Jan&quot;,&#10;  &quot;lastName&quot;: &quot;Kowalski&quot;,&#10;  &quot;username&quot;: &quot;jan&quot;,&#10;  &quot;password&quot;: &quot;123&quot;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8888/encrypt" />
+          <option name="urlPath" value="" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="2000" />
           <option name="filesToSend" value="" />
         </RestClientRequest>
         <RestClientRequest>
@@ -470,14 +590,17 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="HTTP Request.client#10">
+  <component name="RunManager" selected="HTTP Request.client#13">
     <configuration name="client#10" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/client.http" index="10" runType="Run single request">
       <method v="2" />
     </configuration>
     <configuration name="client#11" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/client.http" index="11" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="client#5" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/client.http" index="5" runType="Run single request">
+    <configuration name="client#12" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/client.http" index="12" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="client#13" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/client.http" index="13" runType="Run single request">
       <method v="2" />
     </configuration>
     <configuration name="client#6" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/client.http" index="6" runType="Run single request">
@@ -539,21 +662,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="docker-compose.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
-      <deployment type="docker-compose.yml">
-        <settings>
-          <option name="sourceFilePath" value="docker-compose.yml" />
-        </settings>
-      </deployment>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="HTTP Request.client#10" />
+        <item itemvalue="HTTP Request.client#13" />
+        <item itemvalue="HTTP Request.client#12" />
         <item itemvalue="HTTP Request.client#11" />
+        <item itemvalue="HTTP Request.client#10" />
         <item itemvalue="HTTP Request.client#6" />
-        <item itemvalue="HTTP Request.client#5" />
-        <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
       </list>
     </recent_temporary>
   </component>
@@ -561,7 +676,7 @@
     <option name="viewStates">
       <list>
         <serviceView>
-          <option name="contentProportion" value="0.21135992" />
+          <option name="contentProportion" value="0.18350628" />
           <treeState>
             <expand>
               <path>
@@ -571,7 +686,17 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
                 <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Not Started" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
             </expand>
             <select />
@@ -589,7 +714,7 @@
       <updated>1575883389174</updated>
       <workItem from="1575883391995" duration="11248000" />
       <workItem from="1575896983140" duration="53566000" />
-      <workItem from="1576231759029" duration="7622000" />
+      <workItem from="1576231759029" duration="8896000" />
     </task>
     <task id="LOCAL-00001" summary="payemnts">
       <created>1575965316362</created>
@@ -892,7 +1017,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576233878421</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="payemnts">
+      <created>1576242526022</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1576242526022</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -920,80 +1052,80 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="612" y="211" key="#docker-compose.yml:_Compose_Deployment/0.0.1920.1080@0.0.1920.1080" timestamp="1576069262661" />
-    <state x="469" y="75" key="CommitChangelistDialog2" timestamp="1576233878284">
+    <state x="469" y="75" key="CommitChangelistDialog2" timestamp="1576242525851">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="469" y="75" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1576233878284" />
+    <state x="469" y="75" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1576242525851" />
     <state x="469" y="83" key="CommitChangelistDialog2/0.0.1920.1200@0.0.1920.1200" timestamp="1576135817762" />
     <state width="258" height="592" key="Git.Branch.Popup" timestamp="1576232488853">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="258" height="592" key="Git.Branch.Popup/0.0.1920.1080@0.0.1920.1080" timestamp="1576232488853" />
     <state width="258" height="458" key="Git.Branch.Popup/0.0.1920.1200@0.0.1920.1200" timestamp="1575959106758" />
-    <state width="1443" height="230" key="GridCell.Tab.0.bottom" timestamp="1576233625603">
+    <state width="1868" height="247" key="GridCell.Tab.0.bottom" timestamp="1576243839253">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1443" height="230" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1576233625603" />
+    <state width="1868" height="247" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1576243839253" />
     <state width="1441" height="281" key="GridCell.Tab.0.bottom/0.23.1920.1057@0.23.1920.1057" timestamp="1575967317208" />
-    <state width="1443" height="230" key="GridCell.Tab.0.center" timestamp="1576233625601">
+    <state width="1868" height="247" key="GridCell.Tab.0.center" timestamp="1576243839252">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1443" height="230" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1576233625601" />
+    <state width="1868" height="247" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1576243839252" />
     <state width="1441" height="281" key="GridCell.Tab.0.center/0.23.1920.1057@0.23.1920.1057" timestamp="1575967317206" />
-    <state width="1443" height="230" key="GridCell.Tab.0.left" timestamp="1576233625601">
+    <state width="1868" height="247" key="GridCell.Tab.0.left" timestamp="1576243839251">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1443" height="230" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1576233625601" />
+    <state width="1868" height="247" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1576243839251" />
     <state width="1441" height="281" key="GridCell.Tab.0.left/0.23.1920.1057@0.23.1920.1057" timestamp="1575967317206" />
-    <state width="1443" height="230" key="GridCell.Tab.0.right" timestamp="1576233625602">
+    <state width="1868" height="247" key="GridCell.Tab.0.right" timestamp="1576243839252">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1443" height="230" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1576233625602" />
+    <state width="1868" height="247" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1576243839252" />
     <state width="1441" height="281" key="GridCell.Tab.0.right/0.23.1920.1057@0.23.1920.1057" timestamp="1575967317207" />
-    <state width="1443" height="230" key="GridCell.Tab.1.bottom" timestamp="1576233625605">
+    <state width="1494" height="265" key="GridCell.Tab.1.bottom" timestamp="1576243810036">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1443" height="230" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1576233625605" />
+    <state width="1494" height="265" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1576243810036" />
     <state width="1441" height="281" key="GridCell.Tab.1.bottom/0.23.1920.1057@0.23.1920.1057" timestamp="1575967317210" />
-    <state width="1443" height="230" key="GridCell.Tab.1.center" timestamp="1576233625604">
+    <state width="1494" height="265" key="GridCell.Tab.1.center" timestamp="1576243810035">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1443" height="230" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1576233625604" />
+    <state width="1494" height="265" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1576243810035" />
     <state width="1441" height="281" key="GridCell.Tab.1.center/0.23.1920.1057@0.23.1920.1057" timestamp="1575967317209" />
-    <state width="1443" height="230" key="GridCell.Tab.1.left" timestamp="1576233625603">
+    <state width="1494" height="265" key="GridCell.Tab.1.left" timestamp="1576243810034">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1443" height="230" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1576233625603" />
+    <state width="1494" height="265" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1576243810034" />
     <state width="1441" height="281" key="GridCell.Tab.1.left/0.23.1920.1057@0.23.1920.1057" timestamp="1575967317208" />
-    <state width="1443" height="230" key="GridCell.Tab.1.right" timestamp="1576233625605">
+    <state width="1494" height="265" key="GridCell.Tab.1.right" timestamp="1576243810035">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1443" height="230" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1576233625605" />
+    <state width="1494" height="265" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1576243810035" />
     <state width="1441" height="281" key="GridCell.Tab.1.right/0.23.1920.1057@0.23.1920.1057" timestamp="1575967317209" />
-    <state width="1441" height="281" key="GridCell.Tab.2.bottom" timestamp="1575971584876">
+    <state width="1494" height="265" key="GridCell.Tab.2.bottom" timestamp="1576243608660">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1441" height="281" key="GridCell.Tab.2.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1575971584876" />
-    <state width="1441" height="281" key="GridCell.Tab.2.center" timestamp="1575971584874">
+    <state width="1494" height="265" key="GridCell.Tab.2.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1576243608660" />
+    <state width="1494" height="265" key="GridCell.Tab.2.center" timestamp="1576243608659">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1441" height="281" key="GridCell.Tab.2.center/0.0.1920.1080@0.0.1920.1080" timestamp="1575971584874" />
-    <state width="1441" height="281" key="GridCell.Tab.2.left" timestamp="1575971584874">
+    <state width="1494" height="265" key="GridCell.Tab.2.center/0.0.1920.1080@0.0.1920.1080" timestamp="1576243608659" />
+    <state width="1494" height="265" key="GridCell.Tab.2.left" timestamp="1576243608658">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1441" height="281" key="GridCell.Tab.2.left/0.0.1920.1080@0.0.1920.1080" timestamp="1575971584874" />
-    <state width="1441" height="281" key="GridCell.Tab.2.right" timestamp="1575971584875">
+    <state width="1494" height="265" key="GridCell.Tab.2.left/0.0.1920.1080@0.0.1920.1080" timestamp="1576243608658" />
+    <state width="1494" height="265" key="GridCell.Tab.2.right" timestamp="1576243608659">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1441" height="281" key="GridCell.Tab.2.right/0.0.1920.1080@0.0.1920.1080" timestamp="1575971584875" />
+    <state width="1494" height="265" key="GridCell.Tab.2.right/0.0.1920.1080@0.0.1920.1080" timestamp="1576243608659" />
     <state x="448" y="121" key="SettingsEditor" timestamp="1575896998738">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="448" y="121" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1575896998738" />
-    <state x="460" y="219" key="Vcs.Push.Dialog.v2" timestamp="1576233879647">
+    <state x="460" y="219" key="Vcs.Push.Dialog.v2" timestamp="1576242527697">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="460" y="219" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1576233879647" />
+    <state x="460" y="219" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1576242527697" />
     <state x="460" y="243" key="Vcs.Push.Dialog.v2/0.0.1920.1200@0.0.1920.1200" timestamp="1576135826010" />
     <state x="100" y="100" width="1720" height="880" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1575965827516">
       <screen x="0" y="0" width="1920" height="1080" />
@@ -1011,5 +1143,16 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="541" y="48" width="838" height="1032" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1575985514517" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/authentication/src/main/java/pl/training/cloud/authentication/UsersService.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

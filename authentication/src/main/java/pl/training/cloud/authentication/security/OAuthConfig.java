@@ -1,9 +1,9 @@
 package pl.training.cloud.authentication.security;
 
 import lombok.RequiredArgsConstructor;
-import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.authentication.AuthenticationManager;
+import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.oauth2.config.annotation.configurers.ClientDetailsServiceConfigurer;
 import org.springframework.security.oauth2.config.annotation.web.configuration.AuthorizationServerConfigurerAdapter;
 import org.springframework.security.oauth2.config.annotation.web.configuration.EnableAuthorizationServer;
@@ -26,14 +26,14 @@ public class OAuthConfig extends AuthorizationServerConfigurerAdapter {
     private final JwtAccessTokenConverter jwtAccessTokenConverter;
     private final TokenStore tokenStore;
     private final UsersService usersService;
-    @Qualifier("authenticationManagerBean")
-    private final AuthenticationManager authenticationManager;
+    private final AuthenticationManager authenticationManagerBean;
+    private final PasswordEncoder passwordEncoder;
 
     @Override
-    public void configure(AuthorizationServerEndpointsConfigurer endpoints) throws Exception {
+    public void configure(AuthorizationServerEndpointsConfigurer endpoints) {
         endpoints.accessTokenConverter(jwtAccessTokenConverter)
                 .tokenStore(tokenStore)
-                .authenticationManager(authenticationManager)
+                .authenticationManager(authenticationManagerBean)
                 .userDetailsService(usersService);
     }
 
@@ -47,7 +47,7 @@ public class OAuthConfig extends AuthorizationServerConfigurerAdapter {
 
     @Override
     public void configure(AuthorizationServerSecurityConfigurer security) throws Exception {
-        security.allowFormAuthenticationForClients();
+        security.allowFormAuthenticationForClients().passwordEncoder(passwordEncoder);
     }
 
 }
